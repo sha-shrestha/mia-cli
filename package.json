@@ -1,0 +1,25 @@
+{
+    "name": "mia",
+    "version": "0.0.1",
+    "description": "mia-cli",
+    "repository": {},
+    "bin": "mia.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "npm build",
+        "clean": "rm -rf node_modules",
+        "reinstall": "npm run clean && npm install",
+        "rebuild": "npm run clean && npm install && npm run build"
+    },
+    "author": "",
+    "pkg": {
+        "scripts": "cmds/**/*.js",
+        "assets": "assets/**/*"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "pkg": ">= 4.4.9",
+        "yargs": ">= 16.1.1"
+    }
+
+}
