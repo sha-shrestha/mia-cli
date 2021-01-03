@@ -19,7 +19,9 @@
     "dependencies": {},
     "devDependencies": {
         "pkg": ">= 4.4.9",
-        "yargs": ">= 16.1.1"
+        "yargs": ">= 16.1.1",
+        "conf": ">= 7.1.2",
+        "os": "^0.1.1",
+        "inquirer": "7.3.3"
     }
-
 }
